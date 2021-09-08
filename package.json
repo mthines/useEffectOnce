@@ -1,6 +1,6 @@
 {
   "name": "use-effect-once",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "useEffectOnce and useLayoutEffectOnce with conditional execution",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,7 +25,9 @@
     "url": "git+https://github.com/mthines/useEffectOnce"
   },
   "keywords": [
-    "boilerplate",
+    "use-effect",
+    "use-effect-once",
+    "react",
     "typescript"
   ],
   "author": "Mads Thines",
@@ -48,7 +50,6 @@
     "mocha": "^9.0.2",
     "nyc": "^15.1.0",
     "prettier": "^2.3.2",
-    "react": "^17.0.2",
     "rimraf": "^3.0.2",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.5"
