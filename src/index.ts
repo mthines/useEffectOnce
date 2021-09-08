@@ -5,7 +5,7 @@ import { DependencyList, EffectCallback, useEffect, useLayoutEffect, useRef } fr
  * @see https://www.npmjs.com/package/eslint-plugin-react-hooks#advanced-configuration
  */
 
-const depsFallback: DependencyList = []
+const depsFallback: DependencyList = [];
 
 /**
  * `useEffect`, but will conditional execution
