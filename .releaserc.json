@@ -1,0 +1,20 @@
+{
+  "branches": ["master", "next"],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular"
+      }
+    ],
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": true,
+        "access": "public"
+      }
+    ],
+    "@semantic-release/git"
+  ]
+}
