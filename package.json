@@ -1,7 +1,7 @@
 {
-  "name": "@mthines/typescript-package-boilerplate",
+  "name": "use-effect-once",
   "version": "0.1.0",
-  "description": "TypeScript Module Boilerplate",
+  "description": "useEffectOnce and useLayoutEffectOnce with conditional execution",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mthines/typescript-package-boilerplate"
+    "url": "git+https://github.com/mthines/useEffectOnce"
   },
   "keywords": [
     "boilerplate",
@@ -31,9 +31,9 @@
   "author": "Mads Thines",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mthines/typescript-package-boilerplate/issues"
+    "url": "https://github.com/mthines/useEffectOnce/issues"
   },
-  "homepage": "https://github.com/mthines/typescript-package-boilerplate#readme",
+  "homepage": "https://github.com/mthines/useEffectOnce#readme",
   "devDependencies": {
     "@types/chai": "^4.2.19",
     "@types/expect": "^24.3.0",
@@ -48,6 +48,7 @@
     "mocha": "^9.0.2",
     "nyc": "^15.1.0",
     "prettier": "^2.3.2",
+    "react": "^17.0.2",
     "rimraf": "^3.0.2",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.5"
