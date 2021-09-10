@@ -1,5 +1,7 @@
 # `useEffectOnce` & `useLayoutEffectOnce`
 
+[![NPM](https://nodei.co/npm/use-effect-once.png?mini=true)](https://www.npmjs.com/package/use-effect-once)
+
 ### What is it?
 
 - Expansions of `useEffect` and `useLayoutEffect`, but will conditional execution
