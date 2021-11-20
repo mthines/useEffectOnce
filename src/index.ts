@@ -18,7 +18,7 @@ import { DependencyList, EffectCallback, useEffect, useLayoutEffect, useRef } fr
           // This will get executed once the 3rd argument is `true`, and then never again
           // if no 3rd argument is passed, then it'll only run once, on mount
 
-          return () =>  {
+          return () => {
             // This will still run on unmount
           }
         },
@@ -58,7 +58,7 @@ export const useEffectOnce = (effect: EffectCallback, deps: DependencyList = [],
           // This will get executed once the 3rd argument is `true`, and then never again
           // if no 3rd argument is passed, then it'll only run once, on mount
 
-          return () =>  {
+          return () => {
             // This will still run on unmount
           }
         },
