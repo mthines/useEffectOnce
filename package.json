@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "useEffectOnce and useLayoutEffectOnce with conditional execution",
   "main": "lib/index.js",
+  "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
