@@ -36,9 +36,10 @@ export const useEffectOnce = (effect: EffectCallback, deps: DependencyList = [],
   const prevCondition = useRef(false);
 
   useEffect(() => {
-    if (prevCondition.current) return;
-
-    prevCondition.current = condition ?? true;
+    if (prevCondition.current || condition === false) {
+      return;
+    }
+    prevCondition.current = true;
 
     return effect();
   }, [...deps, condition]);
@@ -75,9 +76,10 @@ export const useLayoutEffectOnce = (effect: EffectCallback, deps: DependencyList
   const prevCondition = useRef(false);
 
   useLayoutEffect(() => {
-    if (prevCondition.current) return;
-
-    prevCondition.current = condition ?? true;
+    if (prevCondition.current || condition === false) {
+      return;
+    }
+    prevCondition.current = true;
 
     return effect();
   }, [...deps, condition]);
